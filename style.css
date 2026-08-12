@@ -51,6 +51,12 @@
   width: 20%;
 }
 
+.divider {
+  width: 1px;
+  height: 20px;
+  background-color: var(--border-color);
+}
+
 .right-part {
   width: 40%;
   display: flex;
@@ -200,7 +206,9 @@ button {
 .icon-1 {
   position: relative;
   top: 2px;
-  left: 16px;
+  left: 15px;
+  font-size: 18px;
+  color: rgba(159, 32, 137, 0.2);
 }
 
 .icon-2 {
