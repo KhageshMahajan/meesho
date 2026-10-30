@@ -276,9 +276,547 @@
                 <button class="btn4">Daily Essentials</button>
             </div>
         </div>
+<div class="main-container">
     
-    
-    
+    <!-- Left Sidebar: Filters -->
+    <aside class="sidebar">
+      <div class="sort-box">
+        <label for="sort">Sort by :</label>
+        <select id="sort">
+          <option value="relevance">Relevance</option>
+          <option value="low-high">Price: Low to High</option>
+          <option value="high-low">Price: High to Low</option>
+          <option value="ratings">Ratings</option>
+          <option value="new">New Arrivals</option>
+        </select>
+      </div>
+
+      <div class="filter-card">
+        <div class="filter-header">
+          <h3>FILTERS</h3>
+          <span>1000+ Products</span>
+        </div>
+
+        <div class="filter-accordion">
+
+  <div class="filter-item">
+    <select name="category">
+      <option value="" disabled selected><h3>Category</h3></option>
+      <option value="women-western">Women Western Wear</option>
+      <option value="men-fashion">Men Fashion</option>
+      <option value="beauty-care">Beauty & Personal Care</option>
+      <option value="bags-footwear">Bags & Footwear</option>
+      <option value="jewellery">Jewellery & Accessories</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="gender">
+      <option value="" disabled selected>Gender</option>
+      <option value="women">Women</option>
+      <option value="men">Men</option>
+      <option value="boys">Boys</option>
+      <option value="girls">Girls</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="color">
+      <option value="" disabled selected>Color</option>
+      <option value="black">Black</option>
+      <option value="white">White</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="pink">Pink</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="fabric">
+      <option value="" disabled selected>Fabric</option>
+      <option value="cotton">Cotton</option>
+      <option value="polyester">Polyester</option>
+
+      <option value="silk">Silk</option>
+      <option value="denim">Denim</option>
+      <option value="georgette">Georgette</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="size">
+      <option value="" disabled selected>Size</option>
+      <option value="s">S</option>
+      <option value="m">M</option>
+      <option value="l">L</option>
+      <option value="xl">XL</option>
+      <option value="xxl">XXL</option>
+      <option value="free-size">Free Size</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="price">
+      <option value="" disabled selected>Price</option>
+      <option value="0-199">Under ₹199</option>
+      <option value="200-499">₹200 - ₹499</option>
+      <option value="500-999">₹500 - ₹999</option>
+      <option value="1000-plus">₹1000 & above</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="rating">
+      <option value="" disabled selected>Rating</option>
+      <option value="4">4.0 ★ & above</option>
+      <option value="3.5">3.5 ★ & above</option>
+      <option value="3">3.0 ★ & above</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="occasion">
+      <option value="" disabled selected>Occasion</option>
+      <option value="casual">Casual</option>
+      <option value="party">Party Wear</option>
+      <option value="festive">Festive</option>
+      <option value="formal">Formal</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="combo">
+      <option value="" disabled selected>Combo</option>
+      <option value="single">Single</option>
+      <option value="pack-2">Pack of 2</option>
+      <option value="pack-3">Pack of 3</option>
+      <option value="multipack">Multipack</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="discount">
+      <option value="" disabled selected>Discount</option>
+      <option value="10">10% or more</option>
+      <option value="30">30% or more</option>
+      <option value="50">50% or more</option>
+      <option value="70">70% or more</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="meesho_gold">
+      <option value="" disabled selected>Meesho Gold</option>
+      <option value="gold-verified">Gold Verified Only</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="meesho_mall">
+      <option value="" disabled selected>Meesho Mall</option>
+      <option value="mall-brands">Mall Brands Only</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="fit_shape">
+      <option value="" disabled selected>Fit/ Shape</option>
+      <option value="regular">Regular Fit</option>
+      <option value="slim">Slim Fit</option>
+      <option value="oversized">Oversized</option>
+      <option value="a-line">A-Line</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="country_origin">
+      <option value="" disabled selected>Country Of Origin</option>
+      <option value="india">India</option>
+      <option value="imported">Imported</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="material">
+      <option value="" disabled selected>Material</option>
+      <option value="synthetic">Synthetic</option>
+      <option value="leather">Leather</option>
+      <option value="metal">Metal</option>
+      <option value="plastic">Plastic</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="bottom_length">
+      <option value="" disabled selected>Bottom Length</option>
+      <option value="full">Full Length</option>
+      <option value="ankle">Ankle Length</option>
+      <option value="knee">Knee Length</option>
+      <option value="shorts">Shorts</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="print_type">
+      <option value="" disabled selected>Print Or Pattern Type</option>
+      <option value="solid">Solid / Plain</option>
+      <option value="printed">Floral Print</option>
+      <option value="striped">Striped</option>
+      <option value="checked">Checked</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="ornamentation">
+      <option value="" disabled selected>Ornamentation</option>
+      <option value="embroidered">Embroidered</option>
+      <option value="zari">Zari Work</option>
+      <option value="beaded">Beaded</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="bottom_pattern">
+      <option value="" disabled selected>Bottom Pattern Type</option>
+      <option value="solid">Solid</option>
+      <option value="printed">Printed</option>
+      <option value="self-design">Self Design</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="surface_styling">
+      <option value="" disabled selected>Surface Styling</option>
+      <option value="ruffles">Ruffles</option>
+      <option value="lace">Lace Work</option>
+      <option value="bows">Bows</option>
+      <option value="none">None</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="back_type">
+      <option value="" disabled selected>Back Type</option>
+      <option value="regular">Regular Back</option>
+      <option value="racerback">Racerback</option>
+      <option value="backless">Backless</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="loom_type">
+      <option value="" disabled selected>Loom Type</option>
+      <option value="handloom">Handloom</option>
+      <option value="powerloom">Powerloom</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="compatible_models">
+      <option value="" disabled selected>Compatible Models</option>
+      <option value="iphone">iPhone</option>
+      <option value="samsung">Samsung</option>
+      <option value="oppo">OPPO</option>
+      <option value="realme">Realme</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="waist_rise">
+      <option value="" disabled selected>Waist Rise</option>
+      <option value="high-rise">High Rise</option>
+      <option value="mid-rise">Mid Rise</option>
+      <option value="low-rise">Low Rise</option>
+    </select>
+  </div>
+
+  <div class="filter-item">
+    <select name="bottom_type">
+      <option value="" disabled selected>Bottom Type</option>
+      <option value="jeans">Jeans</option>
+      <option value="trousers">Trousers</option>
+      <option value="leggings">Leggings</option>
+      <option value="skirt">Skirt</option>
+    </select>
+  </div>
+
+</div>
+    </aside>
+
+    <!-- Right Section: Product Grid -->
+    <main class="product-grid">
+
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/101951269/psq40_512.avif?width=360" alt="Wildplay Perfume">
+          <span class="timer-badge"><i class="fa-regular fa-clock"></i> 01h : 35m : 09s</span>
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Wildplay Unisex Perfumes</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹136</span>
+            <span class="original-price">₹399</span>
+            <span class="discount">66% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">3.9 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">146605 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 2 -->
+       <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/494143256/dhxoq_512.avif?width=360" alt="Wildplay Perfume">
+          <span class="timer-badge"><i class="fa-regular fa-clock"></i> 01h : 35m : 09s</span>
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Menstrual/Sanitary pads</h4>
+            <span class="mall-badge"></span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹141</span>
+            <span class="original-price">₹156</span>
+            <span class="discount">10% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.2 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">12668 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 3 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/380011061/dagmo_512.avif?width=360" alt="Bellavita perfume">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Bellavita perfumes for men 20ml</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹193</span>
+            <span class="original-price">₹748</span>
+            <span class="discount">74% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.3 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">275118 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 4 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/407003700/dtmhw_512.avif?width=360" alt="BRIT ACCENT Perfume">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">BRIT ACCENT Combo Pack Of...</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹176</span>
+            <span class="original-price">₹798</span>
+            <span class="discount">78% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.0 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">167855 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 5 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/801400439/lruti_512.avif?width=360" alt="Women Slingbags">
+          <span class="timer-badge"><i class="fa-regular fa-clock"></i> 01h : 35m : 09s</span>
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Trendy Classy Women Slingbags</h4>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹126</span>
+            <span class="original-price">₹140</span>
+            <span class="discount">10% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.4 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">30 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 6 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/387065789/leurq_512.avif?width=360" alt="Sassy Women Briefs">
+          <span class="timer-badge"><i class="fa-regular fa-clock"></i> 01h : 25m : 39s</span>
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Sassy Women Briefs</h4>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹195</span>
+            <span class="original-price">₹216</span>
+            <span class="discount">10% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.0 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">62918 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 7 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/240971436/pydjk_512.avif?width=360" alt="Facewash & Scrubs">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Facewash & Scrubs</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹80</span>
+            <span class="original-price">₹175</span>
+            <span class="discount">54% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.1 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">14593 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 8 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/434200566/ivj5b_512.avif?width=360" alt="De-Tan Face Wash">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Ghar Soaps Magic De-Tan Face...</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹305</span>
+            <span class="original-price">₹499</span>
+            <span class="discount">39% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.2 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">100513 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 9 -->
+      <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/461009954/fqex0_512.avif?width=360" alt="Puja Articles">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Designer Puja Articles</h4>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹95</span>
+            <span class="original-price">₹101</span>
+            <span class="discount">6% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.0 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">19370 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 10 -->
+         <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/716759106/pmkte_512.avif?width=360" alt="Puja Articles">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">VOKKA New Unisex Perfumes</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹81</span>
+            <span class="original-price">₹390</span>
+            <span class="discount">79% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.2 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">12155 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 11 -->
+         <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/498232777/vbnlw_512.avif?width=360" alt="Puja Articles">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Mamaearth Rice Face Wash 50 ml Pack of 2</h4>
+            <span class="mall-badge">Mall</span>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹213</span>
+            <span class="original-price">₹250</span>
+            <span class="discount">15% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">4.2 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">219932 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card 12 -->
+         <div class="product-card">
+        <div class="image-box">
+          <img src="https://images.meesho.com/images/products/504148993/y5tas_512.avif?width=360" alt="Puja Articles">
+        </div>
+        <div class="product-info">
+          <div class="title-row">
+            <h4 class="product-title">Bluetooth Headphones & Earphones</h4>
+          </div>
+          <div class="price-row">
+            <span class="current-price">₹220</span>
+            <span class="original-price">₹240</span>
+            <span class="discount">10% off</span>
+          </div>
+          <div class="rating-row">
+            <span class="rating-badge">3.9 <i class="fa-solid fa-star"></i></span>
+            <span class="review-count">85392 Reviews</span>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+       
+ 
 </main>
 
 </body>
