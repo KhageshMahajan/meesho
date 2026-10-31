@@ -302,7 +302,6 @@ button {
   position: relative;
   right: 200px;
   top: 90px;
- 
 }
 
 .middle-body-3 {
@@ -337,26 +336,25 @@ button {
   line-height: 1.5;
 }
 
-.sc-jgmqJh{
+.sc-jgmqJh {
   position: relative;
   right: 705px;
   top: 8px;
-
 }
 
-.name-2{
+.name-2 {
   color: rgb(159, 32, 137);
-font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
-    font-size: 18px;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    text-decoration: none;
-        letter-spacing: 0.5px;
-    line-height: 1.5;
-   position: relative;
-   right: 35px;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  position: relative;
+  right: 35px;
 }
 
 /* Container hides overflowing slides */
@@ -365,14 +363,14 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   width: 100%;
   background-color: rgb(240, 233, 255);
   padding: 20px 0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 /* Track holds all items and moves infinitely */
 .slider-track {
   display: flex;
-  width:fit-content;
-  animation:30s linear 0s infinite normal none running scroll;
+  width: fit-content;
+  animation: 30s linear 0s infinite normal none running scroll;
 }
 
 /* Pause animation on hover for user interaction */
@@ -391,7 +389,7 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   margin: 0 12px;
   text-align: center;
   cursor: pointer;
-  background-color:white;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -401,8 +399,6 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   object-fit: contain;
   margin-bottom: 8px;
 }
-
-
 
 /* Keyframes for continuous movement */
 @keyframes scroll {
@@ -414,27 +410,21 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   }
 }
 
-
-
-
-.Lower-part-1{
-    height: 450px;
-    width: 30%;
-    background-color: orange;
-    padding-top:30px;
-  
+.Lower-part-1 {
+  height: 450px;
+  width: 30%;
+  background-color: orange;
+  padding-top: 30px;
 }
 
-.Lower-part-1 p{
+.Lower-part-1 p {
   font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   color: purple;
-  font-size:50px;
+  font-size: 50px;
   font-weight: 400;
   position: relative;
   left: 20%;
   width: 80%;
-  
-  
 }
 
 .btn3 {
@@ -445,45 +435,39 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   left: 20%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
   background-color: rgb(255, 245, 229);
-   
 }
 .mod {
   font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
-  color:purple;
-  font-size:70px;
+  color: purple;
+  font-size: 70px;
   font-weight: 700;
   position: relative;
   left: 20%;
-  
-
 }
 
-.Lower-part-2{
-    height: 480px;
-    width: 70%;
-    background-color:purple;
-    position: relative;
-    left: 30%;
-    bottom: 480px;
-    display: flex;
- justify-content:space-evenly;
- align-items:center;
-  
+.Lower-part-2 {
+  height: 480px;
+  width: 70%;
+  background-color: purple;
+  position: relative;
+  left: 30%;
+  bottom: 480px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 
 .container-4 {
   width: 50px;
   height: 100%;
- margin-top: 100px;
- margin-right: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
   padding-left: 30px;
   padding-right: 30px;
-  
 }
 
 .container-4 img {
- height: 320px;
+  height: 320px;
 }
 
 .btn4 {
@@ -492,12 +476,10 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   border: hidden;
   height: 45px;
   border: 1px solid rgb(255, 157, 0);
-  background-color:rgb(255, 245, 229);
+  background-color: rgb(255, 245, 229);
   font-weight: 600;
   font-size: 22px;
   border-radius: 14px;
-  
-   
 }
 
 /* Layout Wrapper */
@@ -573,7 +555,7 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   padding: 12px 16px;
   border-bottom: 1px solid #f0f0f0;
   font-size: 50px;
-  font-weight:20px;
+  font-weight: 20px;
   color: #333;
   cursor: pointer;
 }
@@ -598,7 +580,9 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
   cursor: pointer;
   width: 300px;
   height: 400px;
@@ -613,7 +597,7 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   position: relative;
   width: 100%;
   padding-top: 100%;
-/* 1:1 Aspect Ratio */
+  /* 1:1 Aspect Ratio */
   background: #fafafa;
 }
 
@@ -688,7 +672,6 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   font-size: 25px;
   font-weight: 700;
   color: #111;
-  
 }
 
 .original-price {
@@ -756,8 +739,9 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   padding: 0;
   border-bottom: 1px solid #f0f0f0;
   background-color: #ffffff;
-  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
-              box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Hover effect on the entire wrapper row */
@@ -777,7 +761,7 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   color: #333333;
   cursor: pointer;
   outline: none;
-  
+
   /* Reset default native arrow */
   appearance: none;
   -webkit-appearance: none;
@@ -789,10 +773,11 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
   background-position: right 14px center;
 
   /* Smooth state transitions */
-  transition: color 0.2s ease,
-              border-color 0.2s ease,
-              background-position 0.2s ease,
-              box-shadow 0.2s ease;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    background-position 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 /* Slightly shift icon downward on hover for affordance */
@@ -822,4 +807,401 @@ font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
 .filter-item select option[disabled] {
   color: #9ca3af;
   font-style: italic;
+}
+
+/* Base Reset & Typography */
+
+body {
+  background-color: #f8f8ff;
+}
+
+/* Footer Outer Container */
+.footer-container {
+  background-color: #f8f8ff;
+  padding: 40px 60px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 350px;
+}
+
+/* Flexbox Layout for Columns */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 150px;
+}
+
+.col-brand {
+  flex: 2.2;
+  min-width: 450px;
+}
+
+.col-contact {
+  flex: 2.2;
+  min-width: 260px;
+}
+
+/* Left Brand Header & Subtext */
+.col-brand h2 {
+  color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 80px;
+  font-family: "Mier book";
+  letter-spacing: 0.5px;
+}
+
+.col-brand p {
+  color: rgb(97, 97, 115);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Mier book";
+  letter-spacing: 0.5px;
+}
+
+/* App Download Badges */
+.app-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  min-width: 150px;
+  transition: opacity 0.2s ease;
+  height: 33px;
+}
+
+.store-btn:hover {
+  opacity: 0.85;
+}
+
+.store-btn i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.btn-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-text .small {
+  text-transform: uppercase;
+}
+
+.btn-text .large {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Navigation Lists */
+.nav-links {
+  list-style: none;
+  position: relative;
+  top: 40px;
+}
+
+.nav-links-2 {
+  list-style: none;
+  position: relative;
+  top: 40px;
+  width: 150px;
+}
+
+.nav-links-2 li {
+  margin-bottom: 16px;
+  color: rgb(97, 97, 115);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Mier demi";
+}
+
+.nav-links-2 a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  position: relative;
+  right: 100px;
+}
+
+.nav-links li {
+  margin-bottom: 16px;
+  color: rgb(97, 97, 115);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Mier demi";
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  position: relative;
+  right: 60px;
+}
+
+.nav-links a:hover {
+  color: #000000;
+}
+
+/* Headings for Social & Contact */
+.footer-col h3 {
+  margin-bottom: 16px;
+  color: rgb(53, 53, 67);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Mier bold";
+  position: relative;
+  top: 27px;
+  right:65px;
+}
+
+/* Social Media Circular Buttons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 20px;
+  right: 67px;
+}
+
+.social-icons a {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-2px);
+}
+
+.social-icons .facebook {
+  background-color: #3b5998;
+}
+.social-icons .instagram {
+  background-color: #e1306c;
+}
+.social-icons .youtube {
+  background-color: #ff0000;
+}
+.social-icons .linkedin {
+  background-color: #0077b5;
+}
+.social-icons .twitter {
+  background-color: #1da1f2;
+}
+
+/* Contact Section Block */
+.col-contact address {
+  font-style: normal;
+  font-size: 12px;
+  color: #666666;
+  line-height: 1.6;
+  position: relative;
+  top: 30px;
+  right: 70px;
+}
+
+.col-contact address a {
+  color: #9c27b0;
+  text-decoration: none;
+}
+
+.col-contact address a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-container {
+    padding: 24px 20px;
+  }
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  position: relative;
+  bottom: 300px;
+}
+
+/* Accordion Header */
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.accordion-header span {
+  font-size: 18px;
+  color: #666666;
+}
+
+/* Section Typography */
+.seo-content {
+  margin-top: 24px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 25px;
+  color: #353543;
+  margin-bottom: 8px;
+  font-family: "Mier demi";
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(53, 53, 67);
+  margin-top: 20px;
+  margin-bottom: 6px;
+  font-family: "Mier demi";
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(53, 53, 67);
+  margin-top: 14px;
+  margin-bottom: 4px;
+  font-family: "Mier demi";
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(97, 97, 115);
+  margin-bottom: 12px;
+  text-align: justify;
+  font-family: "Mier demi";
+  color: rgb(97, 97, 115);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+/* Links Footer Section */
+.footer-links-section {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.category-group {
+  margin-bottom: 16px;
+}
+
+.category-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(159, 32, 137);
+  margin-bottom: 6px;
+  font-family: "Mier demi";
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.category-title-2 {
+  color: rgb(53, 53, 67);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Mier demi";
+  font-weight: 600;
+}
+
+.category-links {
+  font-size: 12px;
+  color: #666666;
+  line-height: 1.8;
+}
+
+.category-links a {
+  color: rgb(159, 32, 137);
+  text-decoration: none;
+  transition: color 0.2s;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: "Mier demi";
+  font-weight: 400;
+}
+
+.category-links a:hover {
+  color: #9c27b0;
+  text-decoration: underline;
+}
+
+.separator {
+  margin: 0 4px;
+  color: #cccccc;
+}
+
+.highlight-pink {
+  color: rgb(159, 32, 137);
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Mier demi";
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
